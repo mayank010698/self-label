@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=/scratch/local/ssd/datasets/imagenet-r256
+DIR=../datasets/imagenet-r256/train
 
 ARCH="alexnet"
 
