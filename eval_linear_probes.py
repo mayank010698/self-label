@@ -11,7 +11,7 @@ import argparse
 
 import torch
 import torch.nn as nn
-from tensorboardX import SummaryWriter
+from torch.utils.tensorboard import SummaryWriter
 
 import util
 import models
