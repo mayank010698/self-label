@@ -8,16 +8,14 @@ import torch
 import torch.optim
 import torch.nn as nn
 import torch.utils.data
-
+'''
 try:
     from tensorboardX import SummaryWriter
 except:
     pass
+'''
 
-'''
-%load_ext tensorboard
-from torch.utils.tensorboardX import SummaryWriter
-'''
+from torch.utils.tensorboard import SummaryWriter
 
 import files
 import util
