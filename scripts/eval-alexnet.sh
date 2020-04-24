@@ -1,5 +1,5 @@
 #!/bin/bash
-DIR=../datasets/imagenet-r256/train
+DIR=../datasets/imagenet-r256/train/train
 
 ARCH="alexnet"
 
